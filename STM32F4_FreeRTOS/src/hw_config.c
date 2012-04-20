@@ -40,16 +40,16 @@ void prvSetupHardware( void )
 	prvTIM4_Config();
 
 	/* Configure LIS302 in order to produce data used for TIM4 reconfiguration and LED control */
-	prvMEMS_Config();
+	//prvMEMS_Config();
 }
 
 void prvLED_Config(char state)
 {
   GPIO_InitTypeDef  GPIO_InitStructure;
   /* GPIOD Periph clock enable */
-  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
-  /* Configure PD12, PD13, PD14 and PD15 in output push-pull mode */
-  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_12 | GPIO_Pin_13| GPIO_Pin_14| GPIO_Pin_15;
+  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOF, ENABLE);
+  /* Configure PF6, PF7, PF8 and PF9 in output push-pull mode */
+  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6 | GPIO_Pin_7 | GPIO_Pin_8 | GPIO_Pin_9;
   GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
   GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;
   GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL;
@@ -58,21 +58,21 @@ void prvLED_Config(char state)
   {
 	  /* standard output pin */
 	  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
-	  GPIO_Init(GPIOD, &GPIO_InitStructure);
+	  GPIO_Init(GPIOF, &GPIO_InitStructure);
   }
   else
   {
 	  /*-------------------------- GPIO Configuration ----------------------------*/
-	  /* GPIOD Configuration: Pins 12, 13, 14 and 15 in output push-pull - alternative mode */
-	  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15;
+	  /* GPIOD Configuration: Pins 6, 7, 8 and 9 in output push-pull - alternative mode */
+	  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6 | GPIO_Pin_7 | GPIO_Pin_8 | GPIO_Pin_9;
 	  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
-	  GPIO_Init(GPIOD, &GPIO_InitStructure);
+	  GPIO_Init(GPIOF, &GPIO_InitStructure);
 
 	  /* Connect TIM4 pins to AF2 */
-	  GPIO_PinAFConfig(GPIOD, GPIO_PinSource12, GPIO_AF_TIM4);
-	  GPIO_PinAFConfig(GPIOD, GPIO_PinSource13, GPIO_AF_TIM4);
-	  GPIO_PinAFConfig(GPIOD, GPIO_PinSource14, GPIO_AF_TIM4);
-	  GPIO_PinAFConfig(GPIOD, GPIO_PinSource15, GPIO_AF_TIM4);
+	  GPIO_PinAFConfig(GPIOF, GPIO_PinSource6, GPIO_AF_TIM4);
+	  GPIO_PinAFConfig(GPIOF, GPIO_PinSource7, GPIO_AF_TIM4);
+	  GPIO_PinAFConfig(GPIOF, GPIO_PinSource8, GPIO_AF_TIM4);
+	  GPIO_PinAFConfig(GPIOF, GPIO_PinSource9, GPIO_AF_TIM4);
   }
 }
 

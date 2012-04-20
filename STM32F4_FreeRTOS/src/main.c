@@ -36,7 +36,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
-#define DELAY 125     /* msec */
+#define DELAY 1000     /* msec */
 #define queueSIZE	6
 
 /* Private macro -------------------------------------------------------------*/
@@ -57,9 +57,9 @@ xTaskHandle xMEMS_Task, xBALANCE_Task;
 
 /* initial arguments for vLEDTask task (which LED and what is the delay) */
 static const int LEDS[4][2] = {{LED3,DELAY*1},
-							   {LED4,DELAY*2},
-							   {LED5,DELAY*3},
-							   {LED6,DELAY*4}};
+							   {LED4,DELAY*5},
+							   {LED5,DELAY*10},
+							   {LED6,DELAY*20}};
 
 /* semaphores, queues declarations */
 xSemaphoreHandle xSemaphoreSW  = NULL;
@@ -79,7 +79,9 @@ int main(void)
 	vSemaphoreCreateBinary( xSemaphoreSW );
 
 	/* ...and clean them up */
-	if(xSemaphoreTake(xSemaphoreSW, ( portTickType ) 0) == pdTRUE);
+	if(xSemaphoreTake(xSemaphoreSW, ( portTickType ) 0) == pdTRUE)
+	{
+	}
 
 	/* initialize hardware... */
 	prvSetupHardware();
@@ -90,8 +92,8 @@ int main(void)
 	xTaskCreate( vLEDTask, ( signed portCHAR * ) "LED5", configMINIMAL_STACK_SIZE, (void *)LEDS[2],tskIDLE_PRIORITY, &xLED_Tasks[2] );
 	xTaskCreate( vLEDTask, ( signed portCHAR * ) "LED6", configMINIMAL_STACK_SIZE, (void *)LEDS[3],tskIDLE_PRIORITY, &xLED_Tasks[3] );
 	xTaskCreate( vSWITCHTask, ( signed portCHAR * ) "SWITCH", configMINIMAL_STACK_SIZE, NULL,tskIDLE_PRIORITY, NULL );
-	xTaskCreate( vMEMSTask, ( signed portCHAR * ) "MEMS", configMINIMAL_STACK_SIZE, NULL,tskIDLE_PRIORITY, &xMEMS_Task );
-	xTaskCreate( vBALANCETask, ( signed portCHAR * ) "BALANCE", configMINIMAL_STACK_SIZE, NULL,tskIDLE_PRIORITY, &xBALANCE_Task );
+	//xTaskCreate( vMEMSTask, ( signed portCHAR * ) "MEMS", configMINIMAL_STACK_SIZE, NULL,tskIDLE_PRIORITY, &xMEMS_Task );
+	//xTaskCreate( vBALANCETask, ( signed portCHAR * ) "BALANCE", configMINIMAL_STACK_SIZE, NULL,tskIDLE_PRIORITY, &xBALANCE_Task );
 
 	/* Start the scheduler. */
 	vTaskStartScheduler();
@@ -203,9 +205,9 @@ void vSWITCHTask( void *pvParameters )
 
 			if(i==0)	//LED3..LD6 tasks ready, BALANCE, MEMS suspended
 			{
-				vTaskSuspend(xBALANCE_Task);
+				//vTaskSuspend(xBALANCE_Task);
 				TIM_Cmd(TIM4, DISABLE);
-				vTaskSuspend(xMEMS_Task);
+				//vTaskSuspend(xMEMS_Task);
 				prvLED_Config(GPIO);
 				vTaskResume(xLED_Tasks[0]);
 				vTaskResume(xLED_Tasks[1]);
@@ -220,8 +222,8 @@ void vSWITCHTask( void *pvParameters )
 				vTaskSuspend(xLED_Tasks[3]);
 				prvLED_Config(TIMER);
 				TIM_Cmd(TIM4, ENABLE);
-				vTaskResume(xBALANCE_Task);
-				vTaskResume(xMEMS_Task);
+				//vTaskResume(xBALANCE_Task);
+				//vTaskResume(xMEMS_Task);
 			}
 		}
 		taskYIELD(); 	//task is going to ready state to allow next one to run

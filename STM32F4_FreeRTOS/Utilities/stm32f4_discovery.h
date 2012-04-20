@@ -48,8 +48,8 @@
   */
 typedef enum 
 {
-  LED4 = 0,
-  LED3 = 1,
+  LED3 = 0,
+  LED4 = 1,
   LED5 = 2,
   LED6 = 3
 } Led_TypeDef;
@@ -77,21 +77,21 @@ typedef enum
   */
 #define LEDn                             4
 
-#define LED4_PIN                         GPIO_Pin_12
-#define LED4_GPIO_PORT                   GPIOD
-#define LED4_GPIO_CLK                    RCC_AHB1Periph_GPIOD  
+#define LED3_PIN                         GPIO_Pin_6
+#define LED3_GPIO_PORT                   GPIOF
+#define LED3_GPIO_CLK                    RCC_AHB1Periph_GPIOF
+
+#define LED4_PIN                         GPIO_Pin_7
+#define LED4_GPIO_PORT                   GPIOF
+#define LED4_GPIO_CLK                    RCC_AHB1Periph_GPIOF
   
-#define LED3_PIN                         GPIO_Pin_13
-#define LED3_GPIO_PORT                   GPIOD
-#define LED3_GPIO_CLK                    RCC_AHB1Periph_GPIOD  
+#define LED5_PIN                         GPIO_Pin_8
+#define LED5_GPIO_PORT                   GPIOF
+#define LED5_GPIO_CLK                    RCC_AHB1Periph_GPIOF
   
-#define LED5_PIN                         GPIO_Pin_14
-#define LED5_GPIO_PORT                   GPIOD
-#define LED5_GPIO_CLK                    RCC_AHB1Periph_GPIOD  
-  
-#define LED6_PIN                         GPIO_Pin_15
-#define LED6_GPIO_PORT                   GPIOD
-#define LED6_GPIO_CLK                    RCC_AHB1Periph_GPIOD
+#define LED6_PIN                         GPIO_Pin_9
+#define LED6_GPIO_PORT                   GPIOF
+#define LED6_GPIO_CLK                    RCC_AHB1Periph_GPIOF
 /**
   * @}
   */ 
