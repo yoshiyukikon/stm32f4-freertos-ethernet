@@ -1,8 +1,8 @@
 src/stm32f4xx_it.d src/stm32f4xx_it.o: ../src/stm32f4xx_it.c \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\Device\STM32F4xx\Include/stm32f4xx.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cm4.h \
- C:\Program\ Files\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\lib\gcc\arm-none-eabi\4.6.1\include/stdint.h \
- C:\Program\ Files\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\arm-none-eabi\include/stdint.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stdint.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/stdint.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cmInstr.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cmFunc.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cm4_simd.h \
@@ -36,7 +36,7 @@ src/stm32f4xx_it.d src/stm32f4xx_it.o: ../src/stm32f4xx_it.c \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/misc.h \
  ../src/stm32f4xx_it.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/FreeRTOS.h \
- C:\Program\ Files\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\lib\gcc\arm-none-eabi\4.6.1\include/stddef.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stddef.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/projdefs.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\src/FreeRTOSConfig.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/portable.h \
@@ -45,15 +45,32 @@ src/stm32f4xx_it.d src/stm32f4xx_it.o: ../src/stm32f4xx_it.c \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/task.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/list.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/semphr.h \
- C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/queue.h
+ C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/queue.h \
+ ../src/config.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/stdio.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/_ansi.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/newlib.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/config.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/ieeefp.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/features.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stdarg.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/reent.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/_ansi.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/_types.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/_types.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/_default_types.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/lock.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/types.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/types.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/stdio.h
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\Device\STM32F4xx\Include/stm32f4xx.h:
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cm4.h:
 
-C:\Program\ Files\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\lib\gcc\arm-none-eabi\4.6.1\include/stdint.h:
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stdint.h:
 
-C:\Program\ Files\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\arm-none-eabi\include/stdint.h:
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/stdint.h:
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cmInstr.h:
 
@@ -121,7 +138,7 @@ C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPerip
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/FreeRTOS.h:
 
-C:\Program\ Files\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\lib\gcc\arm-none-eabi\4.6.1\include/stddef.h:
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stddef.h:
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/projdefs.h:
 
@@ -140,3 +157,37 @@ C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/list.h:
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/semphr.h:
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/queue.h:
+
+../src/config.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/stdio.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/_ansi.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/newlib.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/config.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/ieeefp.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/features.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stdarg.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/reent.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/_ansi.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/_types.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/_types.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/_default_types.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/lock.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/types.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/types.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/stdio.h:

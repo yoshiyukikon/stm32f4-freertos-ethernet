@@ -1,10 +1,8 @@
 /* Library includes. */
-#include "stm32f4xx.h"
-#include "stm32f4_discovery.h"
-#include "stm32f4_discovery_lis302dl.h"
-
 #ifndef HW_CONFIG_H
 #define HW_CONFIG_H
+
+#include "stm32f4xx.h"
 
 extern GPIO_InitTypeDef GPIO_InitStructure;
 extern NVIC_InitTypeDef NVIC_InitStructure;
@@ -19,8 +17,6 @@ extern NVIC_InitTypeDef NVIC_InitStructure;
 
 void prvSetupHardware( void );
 void prvTIM4_Config(void);
-void prvMEMS_Config(void);
 void prvLED_Config(char state);
-uint32_t LIS302DL_TIMEOUT_UserCallback(void);
 
 #endif /*HW_CONFIG_H*/

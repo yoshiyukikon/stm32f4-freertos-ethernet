@@ -1,7 +1,5 @@
-Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.d \
- Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.o: \
- ../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c \
- C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_crc.h \
+src/stm32f4_discovery.d src/stm32f4_discovery.o: \
+ ../src/stm32f4_discovery.c ../src/stm32f4_discovery.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\Device\STM32F4xx\Include/stm32f4xx.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cm4.h \
  C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stdint.h \
@@ -13,6 +11,7 @@ Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.d \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\src/stm32f4xx_conf.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_adc.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_can.h \
+ C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_crc.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_cryp.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_dac.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_dbgmcu.h \
@@ -37,7 +36,7 @@ Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.d \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_wwdg.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/misc.h
 
-C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_crc.h:
+../src/stm32f4_discovery.h:
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\Device\STM32F4xx\Include/stm32f4xx.h:
 
@@ -60,6 +59,8 @@ C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\src/stm32f4xx_conf.h:
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_adc.h:
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_can.h:
+
+C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_crc.h:
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_cryp.h:
 

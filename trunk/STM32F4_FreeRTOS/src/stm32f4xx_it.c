@@ -33,6 +33,7 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "semphr.h"
+#include "config.h"
 
 /** @addtogroup Template_Project
   * @{
@@ -153,10 +154,19 @@ void SysTick_Handler(void)
 /*  available peripheral interrupt handler's name please refer to the startup */
 /*  file (startup_stm32f4xx.s).                                               */
 /******************************************************************************/
+void USARTx_IRQHANDLER(void)
+{
+	if(USART_GetITStatus(Open207Z_USART, USART_IT_RXNE) != RESET)
+	{
+		//USART_ClearITPendingBit(USART2,USART_IT_RXNE);
+		//printf("\n\rUSART Hyperterminal Interrupts Receive a word: %c\n\r",USART_ReceiveData(Open207Z_USART));
+	}
+}
 
 /*void PPP_IRQHandler(void)
 {
 }*/
+
 /* User button handler */
 void EXTI0_IRQHandler(void)
 {
