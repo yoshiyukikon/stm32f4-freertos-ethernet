@@ -1,7 +1,7 @@
 FreeRTOS/portable/port.d FreeRTOS/portable/port.o: \
  ../FreeRTOS/portable/port.c \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/FreeRTOS.h \
- C:\Program\ Files\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\lib\gcc\arm-none-eabi\4.6.1\include/stddef.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stddef.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/projdefs.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\src/FreeRTOSConfig.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/portable.h \
@@ -12,7 +12,7 @@ FreeRTOS/portable/port.d FreeRTOS/portable/port.o: \
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/FreeRTOS.h:
 
-C:\Program\ Files\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\lib\gcc\arm-none-eabi\4.6.1\include/stddef.h:
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stddef.h:
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\FreeRTOS\include/projdefs.h:
 

@@ -1,8 +1,8 @@
 src/hw_config.d src/hw_config.o: ../src/hw_config.c ../src/hw_config.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\Device\STM32F4xx\Include/stm32f4xx.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cm4.h \
- C:\Program\ Files\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\lib\gcc\arm-none-eabi\4.6.1\include/stdint.h \
- C:\Program\ Files\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\arm-none-eabi\include/stdint.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stdint.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/stdint.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cmInstr.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cmFunc.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cm4_simd.h \
@@ -34,8 +34,7 @@ src/hw_config.d src/hw_config.o: ../src/hw_config.c ../src/hw_config.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_usart.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_wwdg.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/misc.h \
- C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Utilities/stm32f4_discovery.h \
- C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Utilities/stm32f4_discovery_lis302dl.h
+ ../src/stm32f4_discovery.h
 
 ../src/hw_config.h:
 
@@ -43,9 +42,9 @@ C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\Device\STM32F4xx\I
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cm4.h:
 
-C:\Program\ Files\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\lib\gcc\arm-none-eabi\4.6.1\include/stdint.h:
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stdint.h:
 
-C:\Program\ Files\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\arm-none-eabi\include/stdint.h:
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/stdint.h:
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cmInstr.h:
 
@@ -109,6 +108,4 @@ C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPerip
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/misc.h:
 
-C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Utilities/stm32f4_discovery.h:
-
-C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Utilities/stm32f4_discovery_lis302dl.h:
+../src/stm32f4_discovery.h:

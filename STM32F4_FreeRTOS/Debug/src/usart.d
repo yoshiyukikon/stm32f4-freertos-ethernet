@@ -1,7 +1,21 @@
-Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.d \
- Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.o: \
- ../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c \
- C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_crc.h \
+src/usart.d src/usart.o: ../src/usart.c ../src/usart.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/stdio.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/_ansi.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/newlib.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/config.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/ieeefp.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/features.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stddef.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stdarg.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/reent.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/_ansi.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/_types.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/_types.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/_default_types.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/lock.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/types.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/types.h \
+ C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/stdio.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\Device\STM32F4xx\Include/stm32f4xx.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\CMSIS\Include/core_cm4.h \
  C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stdint.h \
@@ -13,6 +27,7 @@ Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.d \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\src/stm32f4xx_conf.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_adc.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_can.h \
+ C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_crc.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_cryp.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_dac.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_dbgmcu.h \
@@ -35,9 +50,44 @@ Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.d \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_tim.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_usart.h \
  C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_wwdg.h \
- C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/misc.h
+ C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/misc.h \
+ ../src/config.h
 
-C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_crc.h:
+../src/usart.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/stdio.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/_ansi.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/newlib.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/config.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/ieeefp.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/features.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stddef.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.1/include/stdarg.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/reent.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/_ansi.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/_types.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/_types.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/_default_types.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/lock.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/types.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/machine/types.h:
+
+C:/Program\ Files/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-eabi/include/sys/stdio.h:
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\Device\STM32F4xx\Include/stm32f4xx.h:
 
@@ -60,6 +110,8 @@ C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\src/stm32f4xx_conf.h:
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_adc.h:
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_can.h:
+
+C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_crc.h:
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_cryp.h:
 
@@ -106,3 +158,5 @@ C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPerip
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/stm32f4xx_wwdg.h:
 
 C:\stm32f4xx-discovery-projects-r1\STM32F4_FreeRTOS\Libraries\STM32F4xx_StdPeriph_Driver\inc/misc.h:
+
+../src/config.h:
