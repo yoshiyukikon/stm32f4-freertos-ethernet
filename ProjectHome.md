@@ -1,0 +1,1 @@
+The "..." Router is used to route messages between BACnet/IP, BACnet Ethernet and BACnet MS/TP networks. Supports BBMD.
